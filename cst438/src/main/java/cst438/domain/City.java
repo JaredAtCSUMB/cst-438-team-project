@@ -3,7 +3,7 @@ package cst438.domain;
 import javax.persistence.*;
 
 
-@Entity
+@Entity(name = "city")
 @Table(name="city")
 public class City {
 	
